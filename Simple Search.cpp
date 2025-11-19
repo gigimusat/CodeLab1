@@ -1,6 +1,8 @@
 #include<iostream>
 #include <string>
-using namespace std;
+using namespace std; 
+
+// Program to perform a simple search for a name in a predefined list
 int main() {
     string names[] =  { "Jake", "Zac", "Ian", "Ron", "Sam", "Dave"}; // Array of names
     string search_name; // Variable to hold the name to search for

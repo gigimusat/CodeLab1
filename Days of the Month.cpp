@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-//program that displays the number of days in a month based on user input
+
+// Program that displays the number of days in a month based on user input
 int main() {
     int month; // Variable to hold the month number
     cout << "Enter month number (1-12): "; // Prompt user for month number

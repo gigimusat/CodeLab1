@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 // Program to perform a brute force attack by trying all possible combinations of a 5-digit password
 int main() {
     const int correctpassword = 12345; // Predefined correct password

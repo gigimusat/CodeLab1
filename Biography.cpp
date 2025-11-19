@@ -1,7 +1,8 @@
 #include <iostream> // Include iostream library for input and output
 #include <string> // Include string library for handling text input
 using namespace std; // Use the standard namespace
-
+ 
+// Program to collect and display a user's biography information
 int main() { // Main function - execution starts here
     string name;
     string hometown;

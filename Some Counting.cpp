@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 // Program to count from 0 to 50 in increments of 1
 int main() {
   cout << "Counting from 0 to 50 in increments of 1:" << endl; // Print message

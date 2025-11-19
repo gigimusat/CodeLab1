@@ -2,6 +2,7 @@
 #include <string>
 #include <algorithm>
 using namespace std;
+
  // Program to conduct a primitive quiz on European capitals
 int main() {
     string questions[5] = { // Questions for the quiz

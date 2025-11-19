@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 // Program to check if a number is even or odd
 int main() {
     int number; // Variable to hold the user input
