@@ -1,23 +1,29 @@
-#include <iostream>
-using namespace std;
+#include <iostream> // Include iostream library for input and output
+#include <string> // Include string library for handling text input
+using namespace std; // Use the standard namespace
 
-int main() {
-    string name, hobby;
+int main() { // Main function - execution starts here
+    string name;
+    string hometown;
     int age;
 
-    cout << "Enter your name: ";
-    cin >> name;
+    // Collect biography information from the user
+    cout << "Enter your full name: ";
+    getline(cin, name);  // Use getline to allow spaces in the name
+
+    
+    cout << "Enter your hometown: ";
+    getline(cin, hometown); // Use getline to allow spaces in the hometown
 
     cout << "Enter your age: ";
-    cin >> age;
+    cin >> age;  // Read age as an integer
 
-    cout << "Enter your favourite hobby: ";
-    cin.ignore();  
-    getline(cin, hobby);
+    // Display the biography information
+    cout << "Name: " << name << "\n"
+         << "Hometown: " << hometown << "\n"
+         << "Age: " << age << endl;
 
-    cout << "\nYour name is " << name << ", you are " << age
-         << " years old, and you like " << hobby << "." << endl;
-
-    return 0;
+    return 0; // Indicate that the program ended successfully
 }
+
 
